@@ -8,11 +8,13 @@ const Index = () => {
     <div className='flex flex-col w-[60px] gap-2 bg-white items-center pt-12'>
         <TitleTerciarioSecondary title='Links'/>
         <div className='flex flex-col gap-2'>
-            {IconButtons.map((icon) => 
+            {IconButtons.map((icon, index) =>
+              <div key={index}>
                 <IconButton 
                 icon={icon.icono} 
                 link={icon.enlace}
                 />
+              </div>
             )}
         </div>
     </div>
