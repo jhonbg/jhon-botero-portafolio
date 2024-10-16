@@ -15,8 +15,8 @@ const Index = () => {
         </div>
       </div>
       <div className='flex flex-wrap items-center justify-center gap-2 w-full'>
-        {Knowledges.map((Knowledge, index) => (
-          <div key={index}>
+        {Knowledges.map((Knowledge) => (
+          <div>
             <KnowledgeCard
               imagen={Knowledge.imagen}
               titulo={Knowledge.titulo}

@@ -15,8 +15,8 @@ const Index = () => {
         </div>
       </div>
       <div className='flex flex-row items-center gap-5 overflow-x-auto w-full'>
-        {Briefcase.map((Porfolio, index) => (
-          <div className='flex-row' key={index}>
+        {Briefcase.map((Porfolio) => (
+          <div className='flex-row'>
             <PorfolioCard
               imagen={Porfolio.imagen}
               titulo={Porfolio.titulo}

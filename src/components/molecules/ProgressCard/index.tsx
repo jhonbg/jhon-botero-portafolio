@@ -12,8 +12,8 @@ const Index = ({ utilitConst}:{utilitConst: 'Idiomas' | 'Lenguajes de Programaci
         <TitleTerciarioSecondary title={utilitConst}/>
       </div>
       <div className='flex flex-col gap-2'>
-        {items.map((item, index) =>(
-          <div key={index}>
+        {items.map((item) =>(
+          <div>
             <ProgressComponets 
             texto1={item.texto1} 
             texto2={item.texto2} 
