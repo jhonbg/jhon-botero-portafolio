@@ -4,9 +4,9 @@ import { Sign } from 'crypto'
 
 const Index = ({imagen, titulo, texto}:{imagen:string, titulo:string, texto:string}) => {
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg w-[310px]  content-end bg-white">
+    <div className="max-w-sm rounded overflow-hidden shadow-lg w-[310px] content-end bg-white">
       <div>
-        <img className='w-[310px] h-auto pt-4' src={imagen} alt="Imagen" />
+        <img className='w-[310px] h-[210px] object-cover pt-4' src={imagen} alt="Imagen" />
       </div>
       <div className="px-6 py-4">
         <TitleTerciarioSecondary title={titulo}/>

@@ -18,6 +18,20 @@ const Knowledges = [
 
 const Certificates = [
     {
+        titulo1:'Univesidad de Antioquia',
+        texto1:'Estudiante',
+        titulo2:'Ingeniería de Sistemas',
+        texto2:'Conocimientos sobre los conseptos basicos de una computadora y como sacarle el mayor rendimiendo',
+        fecha:'Feb - 2019 - ...'
+    },
+    {
+        titulo1:'Univesidad de Alicante, Square1',
+        texto1:'Estudiante',
+        titulo2:'Diplomado Full-Stack con Laravel',
+        texto2:'conceptos fundamentales de desarrollo web, incluyendo HTTP, entornos de desarrollo con Git y Docker, creación de interfaces de usuario con HTML y CSS, programación en PHP y Laravel, etc.',
+        fecha:'Jul - 2024 - ...'
+    },
+    {
         titulo1:'Platzi',
         texto1:'Estudiante',
         titulo2:'Curso Básico de Computadores e Informática',
@@ -40,29 +54,14 @@ const Briefcase = [
         texto: 'Mesa Master es una aplicación para gestionar y dar seguimiento a pedidos en negocios de comida rápida, optimizando tiempos y mejorando la atención al cliente.'
     },
     {
-        imagen: '/logos/mesa-master.png', 
-        titulo: 'Mesa Master', 
-        texto: 'Mesa Master es una aplicación para gestionar y dar seguimiento a pedidos en negocios de comida rápida, optimizando tiempos y mejorando la atención al cliente.'
+        imagen: '/logos/X.png', 
+        titulo: 'RoomPlaner', 
+        texto: 'Aplicación simple para gestionar reservas de hotel con login y control básico.'
     },
     {
-        imagen: '/logos/mesa-master.png', 
-        titulo: 'Mesa Master', 
-        texto: 'Mesa Master es una aplicación para gestionar y dar seguimiento a pedidos en negocios de comida rápida, optimizando tiempos y mejorando la atención al cliente.'
-    },
-    {
-        imagen: '/logos/mesa-master.png', 
-        titulo: 'Mesa Master', 
-        texto: 'Mesa Master es una aplicación para gestionar y dar seguimiento a pedidos en negocios de comida rápida, optimizando tiempos y mejorando la atención al cliente.'
-    },
-    {
-        imagen: '/logos/mesa-master.png', 
-        titulo: 'Mesa Master', 
-        texto: 'Mesa Master es una aplicación para gestionar y dar seguimiento a pedidos en negocios de comida rápida, optimizando tiempos y mejorando la atención al cliente.'
-    },
-    {
-        imagen: '/logos/mesa-master.png', 
-        titulo: 'Mesa Master', 
-        texto: 'Mesa Master es una aplicación para gestionar y dar seguimiento a pedidos en negocios de comida rápida, optimizando tiempos y mejorando la atención al cliente.'
+        imagen: '/logos/Calculadora.png', 
+        titulo: 'Calculadora', 
+        texto: 'Una interfaz gráfica de usuario (GUI) para una calculadora, que incluye botones interactivos para realizar operaciones matemáticas básicas, con una pantalla de salida.'
     },
 ];
 
@@ -104,10 +103,10 @@ const ProgrammingLanguages = [
 
 const Skills = [
     {
-        texto:'Material UI'
+        texto:'Material UI, Tailwind'
     },
     {
-        texto:'Material UI'
+        texto:'React'
     },
 ];
 
