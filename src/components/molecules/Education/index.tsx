@@ -15,7 +15,7 @@ const Index = () => {
         </div>
       </div>
       <div className='flex flex-col gap-3'>
-        {Certificates.map((Certificate, index) => (
+        {Certificates.map((Certificate) => (
           <div>
             <EducationCard
               texto1={Certificate.texto1}
