@@ -2,7 +2,6 @@ import React from 'react'
 import { TitleSegundario, TextPrincipalTertiary} from '@/components/atoms/titles'
 import EducationCard from '@/components/molecules/EducationCard'
 import { Certificates } from '@/utils/const'
-import index from '../ProfileCard'
 
 const Index = () => {
   return (

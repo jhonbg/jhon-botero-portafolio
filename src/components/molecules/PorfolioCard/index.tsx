@@ -1,6 +1,5 @@
 import React from 'react'
 import { TitleTerciarioPrimary, TitleTerciarioSecondary, TextPrincipalTertiary} from '@/components/atoms/titles'
-import { Sign } from 'crypto'
 
 const Index = ({imagen, titulo, texto}:{imagen:string, titulo:string, texto:string}) => {
   return (
