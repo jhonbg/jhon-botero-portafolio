@@ -2,6 +2,7 @@ import React from 'react'
 import { TitleSegundario, TextPrincipalTertiary} from '@/components/atoms/titles'
 import EducationCard from '@/components/molecules/EducationCard'
 import { Certificates } from '@/utils/const'
+import index from '../ProfileCard'
 
 const Index = () => {
   return (
@@ -15,8 +16,8 @@ const Index = () => {
         </div>
       </div>
       <div className='flex flex-col gap-3'>
-        {Certificates.map((Certificate, _) => (
-          <div key={_}>
+        {Certificates.map((Certificate,index) => (
+          <div key={index}>
             <EducationCard
               texto1={Certificate.texto1}
               titulo1={Certificate.titulo1}
