@@ -11,7 +11,9 @@ const Index = () => {
         </div>
         <div className='flex flex-col gap-2'>
             {Skills.map((skill)=>(
+              <div key={skill.id}>
                 <ExtraSkill texto={skill.texto}/>
+              </div>
             ))}
         </div>
     </div>
