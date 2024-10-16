@@ -9,7 +9,7 @@ const Index = () => {
         <TitleTerciarioSecondary title='Links'/>
         <div className='flex flex-col gap-2'>
             {IconButtons.map((icon) =>
-              <div>
+              <div key={icon.id}>
                 <IconButton 
                 icon={icon.icono} 
                 link={icon.enlace}
