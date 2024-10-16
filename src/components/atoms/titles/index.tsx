@@ -38,13 +38,6 @@ const TitleTerciarioSecondary = ({ title }: { title: string }) => {
     );
 };
 
-const TitleCuarnario = ({ title }: { title: string}) => {
-    return (
-        <h6 className="text-tertiary text-[16px]">
-           {title} 
-        </h6>
-    );
-};
 
 const TextPrincipalTertiary = ({ text }: { text: string }) => {
     return (
