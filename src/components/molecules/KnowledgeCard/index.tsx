@@ -1,6 +1,7 @@
 import React from 'react'
 import { TitleTerciarioSecondary,TextPrincipalTertiary} from '@/components/atoms/titles'
 
+// En el componente se define la estructura basica del los conocimientos de la persona
 const Index = ({imagen, titulo, texto} : {imagen : string, titulo : string, texto : string }) => {
   return (
     <div className='w-[270px] h-[225px] bg-white flex flex-col justify-center items-center object-contain gap-3 p-2'>

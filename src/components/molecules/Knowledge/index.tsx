@@ -3,6 +3,7 @@ import { TitleSegundario, TextPrincipalTertiary} from '@/components/atoms/titles
 import KnowledgeCard from '@/components/molecules/KnowledgeCard'
 import { Knowledges } from '@/utils/const'
 
+// El componente hace un pequeña introduccion al conocimiento de la persona y hace la carga de los conocimientos con la estructura del componente KnowledgeCard.
 const Index = () => {
   return (
     <div className='flex flex-col text-center items-center bg-gray-100 w-full '>

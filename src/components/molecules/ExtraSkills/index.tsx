@@ -3,6 +3,7 @@ import { TitleTerciarioSecondary } from '@/components/atoms/titles'
 import ExtraSkill from '@/components/molecules/ExtraSkill'
 import { Skills } from '@/utils/const'
 
+// En el componete se cargan todo el listado de habilades utilizando la estructura que da el componente ExtraSkill
 const Index = () => {
   return (
     <div className='flex flex-col border-b-2 gap-3 p-11 bg-white'>

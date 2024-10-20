@@ -2,6 +2,7 @@ import React from 'react'
 
 const Index = ({progress}:{progress:number}) => {
   return (
+    // Contenedor externo con padding, color de fondo y bordes redondeados para simular una barra de progreso.
     <div className='p-0.5 bg-primary rounded-full'>
       <div className='bg-white p-0.5 rounded-full'>
         <div className='bg-white h-2 w-full rounded-full overflow-hidden'>

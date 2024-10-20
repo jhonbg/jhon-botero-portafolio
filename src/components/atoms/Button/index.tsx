@@ -1,11 +1,14 @@
 import React from 'react'
 
+// Define la interfaz para las propiedades del componente `Button`.
 interface ButtonPronps{
   onClick?: () => void;
 }
 
+// Componente funcional `Button` que recibe una función `onClick` como prop opcional.
 const Button: React.FC<ButtonPronps> = ({onClick}) => {
   return (
+    // Renderiza un botón con estilos personalizados y asigna la función `onClick` a su evento.
     <button className='bg-primary text-secondary w-[154px] h-[52px] flex justify-center items-center text-base p-3 rounded' 
     onClick={onClick}
     >
@@ -54,7 +57,9 @@ const Button: React.FC<ButtonPronps> = ({onClick}) => {
   )
 }
 
+// Componente funcional `IconButton` que recibe un ícono y un enlace como props.
 const IconButton = ({ icon , link}: {icon:string, link:string}) => {
+  // Define una función `handleClick` que redirige al usuario a la URL especificada en `link`.
   const handleClick = () =>{
     window.location.href = link;
   };
@@ -65,4 +70,5 @@ const IconButton = ({ icon , link}: {icon:string, link:string}) => {
   );
 };
 
+// Exporta los dos componentes para que puedan ser utilizados en otros archivos.
 export {Button , IconButton}

@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { TitleTerciarioPrimary, TitleTerciarioSecondary, TextPrincipalTertiary, TitleSegundario} from '@/components/atoms/titles'
 import ModalPorfolio from '@/components/molecules/ModalPorfolio'
 
+// En el componente se hace la estructura basica para precentar el proyecto con una imagen y una breve descripción y un boton para saber mas sobre el proyecto.
 const Index = ({imagen, titulo, texto, textoPor,url}:{imagen:string, titulo:string, textoPor:string, texto:string, url:string}) => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 

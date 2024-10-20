@@ -3,6 +3,7 @@ import { TitleSegundario, TextPrincipalTertiary} from '@/components/atoms/titles
 import EducationCard from '@/components/molecules/EducationCard'
 import { Certificates } from '@/utils/const'
 
+// En este codigo se hace la carga y recorido de todos los componetes que tienen la información de los estudios que tiene la persona.
 const Index = () => {
   return (
     <div className='flex flex-col items-center bg-gray-100'>

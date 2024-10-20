@@ -8,6 +8,7 @@ interface ModalProps
     children: ReactNode
 }
 
+// El componente es una ventana emergente que contiene mas información sobre los proyectos de programación realizados por el usuario y tiene la redirección al repositorio.
 const Index: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
   return (
     <AnimatePresence>

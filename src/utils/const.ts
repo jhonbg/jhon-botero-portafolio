@@ -84,14 +84,12 @@ const Briefcase = [
 const Languages = [
     {
         id:1,
-        texto1:'Español',
-        texto2:'100%',
+        texto:'Español',
         porcentaje:100
     },
     {
         id:2,
-        texto1:'Ingles',
-        texto2:'10%',
+        texto:'Ingles',
         porcentaje:10
     }
 ];
@@ -99,26 +97,22 @@ const Languages = [
 const ProgrammingLanguages = [
     {
         id:1,
-        texto1:'JavaScript',
-        texto2:'50%',
+        texto:'JavaScript',
         porcentaje:50
     },
     {
         id:2,
-        texto1:'TypeScript',
-        texto2:'50%',
+        texto:'TypeScript',
         porcentaje:50
     },
     {
         id:3,
-        texto1:'Java',
-        texto2:'40%',
+        texto:'Java',
         porcentaje:40
     },
     {
         id:4,
-        texto1:'Python',
-        texto2:'30%',
+        texto:'Python',
         porcentaje:30
     }
 ];

@@ -1,6 +1,7 @@
 import React from 'react'
 import { TitleTerciarioSecondary, TextPrincipalTertiary } from '@/components/atoms/titles'
 
+// En el componente se puede ver una imagen del usuario, nombre y profeción.
 const index = () => {
   return (
     <div className="flex flex-col items-center bg-white p-16 justify-center text-center gap-2 border-b-2">

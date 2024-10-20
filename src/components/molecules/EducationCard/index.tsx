@@ -1,6 +1,7 @@
 import React from 'react'
 import { TitleTerciarioSecondary, TextPrincipalSecondary, TextPrincipalTertiary,  Date} from '@/components/atoms/titles'
 
+// Este componente contiene la estructura basica de como se ve una tarjeta de estudios o cursos hechos por la persona.
 const Index = ({titulo1, titulo2, texto1, texto2, fecha}:{titulo1:string, titulo2:string, texto1:string, texto2:string, fecha:string}) => {
   return (
     <div className="w-[904px] h-[150px] bg-white flex justify-around box-content">

@@ -3,6 +3,7 @@ import { TitleTerciarioSecondary } from '@/components/atoms/titles'
 import { IconButton } from '@/components/atoms/Button'
 import { IconButtons } from '@/utils/const'
 
+// En el componete se hace la carga de los diferentes botones a redes sociales del usuario con su respectiva redirección.
 const Index = () => {
   return (
     <div className='flex flex-col w-[60px] gap-2 bg-white items-center pt-12'>

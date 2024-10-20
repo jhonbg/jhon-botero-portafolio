@@ -3,6 +3,7 @@ import ProgressComponets from '@/components/molecules/ProgressComponets'
 import { Languages, ProgrammingLanguages } from '@/utils/const'
 import { TitleTerciarioSecondary } from '@/components/atoms/titles'
 
+// En el componente se puede apreciar y se cargan todos los lenguajes y idiomas y sele aplica la estructura del componente ProgressComponets.
 const Index = ({ utilitConst}:{utilitConst: 'Idiomas' | 'Lenguajes de Programación'}) => {
 
   const items = utilitConst === 'Idiomas' ? Languages : ProgrammingLanguages;
@@ -15,8 +16,7 @@ const Index = ({ utilitConst}:{utilitConst: 'Idiomas' | 'Lenguajes de Programaci
         {items.map((item) =>(
           <div key={item.id}>
             <ProgressComponets 
-            texto1={item.texto1} 
-            texto2={item.texto2} 
+            texto={item.texto} 
             porcentaje={item.porcentaje}/>
           </div>
         ))

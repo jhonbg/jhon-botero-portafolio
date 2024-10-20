@@ -1,6 +1,7 @@
 import React from 'react'
 import { TextPrincipalSecondary } from '@/components/atoms/titles'
 
+// En este componente se utiliza para la informacion como edad, correo, etc.
 const Index = () => {
   return (
     <div className='flex flex-col p-6 gap-3 border-b-2 bg-white'>

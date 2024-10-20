@@ -3,6 +3,7 @@ import { TitleSegundario, TextPrincipalTertiary} from '@/components/atoms/titles
 import PorfolioCard from '@/components/molecules/PorfolioCard'
 import { Briefcase } from '@/utils/const'
 
+// En el componete se hace la estructura basica de la parte de los proyectos y la carga de cada uno de los proyectos con el estilo del componente PorfolioCard.
 const Index = () => {
   return (
     <div className='flex flex-col items-center bg-gray-100 m-4'>

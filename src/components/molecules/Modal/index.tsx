@@ -8,6 +8,7 @@ interface ModalProps
     children: ReactNode
 }
 
+// El componente es una ventana emergente que es encarga de mostrar un poco mas del usuario asi como unos botones para ponerse en contacto con él.
 const Index: React.FC<ModalProps> = ({ isOpen, onClose, children }) => {
   if (!isOpen) return null;
 

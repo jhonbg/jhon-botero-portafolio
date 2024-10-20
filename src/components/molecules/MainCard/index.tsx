@@ -3,6 +3,7 @@ import {TitlePrincipalPrimary, TitlePrincipalSecondary, TextPrincipalTertiary} f
 import { Button } from '@/components/atoms/Button'
 import Modal from '@/components/molecules/Modal'
 
+// En este componete se hace una breve introduccion del usuario en la cual se componen de su nombre, profesión y un breve parrafo de su perfil.
 const Index = () => {
   const [isModalOpen, setIsModalOpen] = useState<boolean>(false);
 
