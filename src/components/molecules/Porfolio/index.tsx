@@ -21,6 +21,8 @@ const Index = () => {
               imagen={Porfolio.imagen}
               titulo={Porfolio.titulo}
               texto={Porfolio.texto}
+              textoPor={Porfolio.textoPor}
+              url={Porfolio.url}
             />
           </div>
         ))}

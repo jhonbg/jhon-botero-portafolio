@@ -59,19 +59,25 @@ const Briefcase = [
         id:1,
         imagen: '/logos/mesa-master.png', 
         titulo: 'Mesa Master', 
-        texto: 'Mesa Master es una aplicación para gestionar y dar seguimiento a pedidos en negocios de comida rápida, optimizando tiempos y mejorando la atención al cliente.'
+        texto: 'Mesa Master es una aplicación para gestionar y dar seguimiento a pedidos en negocios de comida rápida, optimizando tiempos y mejorando la atención al cliente.',
+        textoPor: 'Esta aplicación está diseñada para el control de pedidos en un sitio de comida rápida, permitiendo gestionar tanto los pedidos de los clientes como el control de personal y sus salarios, además de ofrecer funciones para la agregación y modificación de productos. En cuanto a las tecnologías utilizadas, el frontend está construido con React, que es una biblioteca de TypeScript para crear interfaces de usuario, junto con React Router DOM para manejar la navegación entre diferentes rutas y Material UI (MUI), una biblioteca que proporciona componentes preconstruidos como botones, tablas y cajones. El backend utiliza Axios, un cliente HTTP basado en promesas para realizar solicitudes al backend API, y la API probablemente se ejecuta en un servidor Node.js con Spring Boot.',
+        url:'https://github.com/jhonbg/Mesa-Master.git'
     },
     {
         id:2,
         imagen: '/logos/X.png', 
         titulo: 'RoomPlaner', 
-        texto: 'Aplicación simple para gestionar reservas de hotel con login y control básico.'
+        texto: 'Aplicación simple para gestionar reservas de hotel con login y control básico.',
+        textoPor:'Esta aplicación está diseñada para gestionar reservas de hotel de manera eficiente. Incluye un sistema de login que permite a los usuarios acceder a su cuenta de manera segura. Con un control básico, los administradores pueden gestionar las reservas, asegurando que cada huésped tenga la mejor experiencia posible. La aplicación está desarrollada en TypeScript, lo que garantiza un código más robusto y fácil de mantener.',
+        url:'https://github.com/cristianmunoz1/roomplanner.git'
     },
     {
         id:3,
         imagen: '/logos/Calculadora.png', 
         titulo: 'Calculadora', 
-        texto: 'Una interfaz gráfica de usuario (GUI) para una calculadora, que incluye botones interactivos para realizar operaciones matemáticas básicas, con una pantalla de salida.'
+        texto: 'Una interfaz gráfica de usuario (GUI) para una calculadora, que incluye botones interactivos para realizar operaciones matemáticas básicas, con una pantalla de salida.',
+        textoPor:'Esta aplicación es una calculadora completamente funcional que cuenta con una interfaz gráfica de usuario (GUI) intuitiva. Incluye botones interactivos que permiten a los usuarios realizar operaciones matemáticas básicas de manera sencilla y rápida. La calculadora presenta una pantalla de salida clara que muestra los resultados en tiempo real, facilitando el uso y la comprensión de las operaciones. Está desarrollada utilizando HTML, CSS y JavaScript, asegurando una experiencia fluida y responsiva.',
+        url:'https://github.com/ingenieria-web-udea-LM-20242/taller-html-jhon-boterogomez.git'
     },
 ];
 
@@ -79,14 +85,14 @@ const Languages = [
     {
         id:1,
         texto1:'Español',
-        texto2:'80%',
-        porcentaje:80
+        texto2:'100%',
+        porcentaje:100
     },
     {
         id:2,
         texto1:'Ingles',
-        texto2:'20%',
-        porcentaje:20
+        texto2:'10%',
+        porcentaje:10
     }
 ];
 
