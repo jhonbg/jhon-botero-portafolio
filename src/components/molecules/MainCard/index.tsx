@@ -20,7 +20,7 @@ const Index = () => {
                 <TitlePrincipalSecondary title='Developer'/>
             </div>
             <div className='py-3'>
-                <TextPrincipalTertiary text='Estudiante de octavo semestre de Ingeniería en Sistemas, interesado en crear soluciones tecnológicas innovadoras que generen impacto. Destaco por mi liderazgo en equipos de trabajo, facilitando una colaboración eficiente y orientada a resultados. Mi curiosidad constante me impulsa a aprender nuevas tecnologías y adaptarme rápidamente a los cambios del sector, siempre buscando desafíos que me permitan crecer y aportar valor.'/>  
+                <TextPrincipalTertiary text='Estudiante de noveno semestre de Ingeniería en Sistemas, interesado en crear soluciones tecnológicas innovadoras que generen impacto. Destaco por mi liderazgo en equipos de trabajo, facilitando una colaboración eficiente y orientada a resultados. Mi curiosidad constante me impulsa a aprender nuevas tecnologías y adaptarme rápidamente a los cambios del sector, siempre buscando desafíos que me permitan crecer y aportar valor.'/>  
             </div>
             <Button onClick={openModal}/>
         </div>

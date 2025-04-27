@@ -7,7 +7,7 @@ const Index = () => {
     <div className='flex flex-col p-6 gap-3 border-b-2 bg-white'>
         <div className='flex flex-row justify-between'>
             <TextPrincipalSecondary text='Edad'/>
-            <TextPrincipalSecondary text='25'/>
+            <TextPrincipalSecondary text='26'/>
         </div>
         <div className='flex flex-row justify-between'>
             <TextPrincipalSecondary text='Correo'/>

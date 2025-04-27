@@ -90,7 +90,7 @@ const Languages = [
     {
         id:2,
         texto:'Ingles',
-        porcentaje:10
+        porcentaje:20
     }
 ];
 
